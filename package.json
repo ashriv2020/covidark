@@ -1,0 +1,26 @@
+{
+    "name": "covi",
+    "displayName": "covi dark",
+    "description": "A dark color theme for vscode generated during covid lockdown",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },   
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "vscodetok1",
+    "contributes": {
+        "themes": [
+            {
+                "label": "covi",
+                "uiTheme": "vs-dark",
+                "path": "./themes/covi-color-theme.json"
+            }
+        ]
+    }
+}

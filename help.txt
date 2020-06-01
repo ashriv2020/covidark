@@ -1,0 +1,28 @@
+npm install -g yo generator-code
+
+vsce
+vsce, short for "Visual Studio Code Extensions", is a command-line tool for packaging, publishing and managing VS Code extensions.
+
+Installation
+Make sure you have Node.js installed. Then run:
+
+npm install -g vsce
+
+Usage
+You can use vsce to easily package and publish your extensions:
+
+$ cd myExtension
+$ vsce package
+# myExtension.vsix generated
+$ vsce publish
+# <publisherID>.myExtension published to VS Code MarketPlace
+
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension#create-a-publisher
+
+Error
+PS D:\vscode\ext\color> vsce create-publisher vscodetok1
+ ERROR  Failed request: (401)
+ One easy mistake to make when creating the PAT (Personal Access Token) is to not 
+ select all accessible accounts/organizations in the Accounts field drop-down
+ (instead selecting a specific account). You should also set the Authorized Scopes to Marketplace (Manage) for the publish to work.
+
